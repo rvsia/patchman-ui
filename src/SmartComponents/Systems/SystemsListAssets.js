@@ -14,14 +14,6 @@ export const systemsListColumns = [
         }
     },
     {
-        key: 'packages_installed',
-        title: 'Packages',
-        transforms: [sortable],
-        props: {
-            width: 10
-        }
-    },
-    {
         key: 'applicable_advisories',
         title: 'Applicable advisories',
         transforms: [sortable],
